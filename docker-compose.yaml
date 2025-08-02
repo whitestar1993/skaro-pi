@@ -26,5 +26,5 @@ services:
       # Optional, if Pi-hole should get some more processing time
       - SYS_NICE
     dns:
-      -
+      - "1.1.1.1"
     restart: unless-stopped
