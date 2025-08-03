@@ -19,5 +19,5 @@ services:
       # DISABLE_IPV6: 'true'
 
     volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+      - /home/skaro/apps/npm/data:/data
+      - /home/skaro/apps/npm/letsencrypt:/etc/letsencrypt
